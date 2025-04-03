@@ -1,17 +1,17 @@
 body {
-    background-color: #F0EAD6; /* Светлый бежевый фон */
+    background-color: #F0EAD6;
     font-family: 'Georgia', serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #3D3B30; /* Тёмно-коричневый текст */
+    color: #3D3B30;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2E8B57; /* Зелёный фон */
+    background-color: #2E8B57;
     padding: 10px 20px;
 }
 
@@ -22,7 +22,27 @@ header img {
 header h1 {
     color: #F0EAD6;
     font-size: 2em;
-    margin-left: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #2E8B57;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #F0EAD6;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #3D3B30;
 }
 
 .container {
@@ -36,39 +56,11 @@ p {
     max-width: 800px;
     margin: 20px auto;
     padding: 15px;
-    background-color: #EDE7DC; /* Кремовый фон */
+    background-color: #EDE7DC;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-a {
-    color: #2E8B57;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.nav-links a {
-    background-color: #3D3B30;
-    color: #F0EAD6;
-    padding: 10px 20px;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-}
-
-.nav-links a:hover {
-    background-color: #2E8B57;
-}
 
     justify-content: center;
     gap: 20px;
